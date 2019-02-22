@@ -1,74 +1,77 @@
+// gulp的操作: 创建任务，任务中处理文件和代码，执行任务 task,src,dest,pipe,watch
 const gulp = require('gulp')
 const webserver = require('gulp-webserver')
-const webpack = require('webpack-stream')
+const watch = require('gulp-watch')
+const pathUtil = require('path')
 const sass = require('gulp-sass')
-const watch = require('gulp-watch') // 监听文件
-const Path = require('path') // 处理路径
-const del = require('del') // 删除文件
-const { path, serverConfig, webpackConfig } = require('./config')
+const del = require('del')
+const webpack = require('webpack-stream')
+// 解构出来的配置文件
+const { 
+    serverConfig,
+    webpackConfig  
+} = require('./config')
 
-// 迁移HTML文件
-gulp.task('copy-html', () => {
-    let { src, dist } = path
-    return gulp.src(src + '/*.html')
-            .pipe(gulp.dest(dist))
-})
-
-// // 迁移stylesheets文件
-// gulp.task('copy-stylesheets', () => {
-//     let { stylesheets, dist } = path
-//     return gulp.src(stylesheets + '/**/*')
-//             .pipe(gulp.dest(dist + '/stylesheets'))
-// })
-
-// 迁移Static文件
+// 迁移static资源
 gulp.task('copy-static', () => {
-    let { static, dist } = path
-    return gulp.src(static + '/**/*')
-            .pipe(gulp.dest(dist + '/static'))
+    return gulp.src('src/static/**/*')
+                .pipe(gulp.dest('dist/static'))
 })
 
-// 处理sass文件
+// 迁移html资源
+gulp.task('copy-html', () => {
+    return gulp.src('src/*.html')
+                .pipe(gulp.dest('dist'))
+})
+
+// 编译sass
 gulp.task('compile-sass', () => {
-    let { src, dist } = path
-    return gulp.src(src + '/stylesheets/**/*.scss')
-            .pipe(sass())
-            .pipe(gulp.dest(dist + '/stylesheets'))
+    return gulp.src('src/stylesheets/**/*.scss')
+                .pipe(sass())
+                .pipe(gulp.dest('dist/stylesheets'))
 })
 
-// 处理JS文件
+// 打包js
 gulp.task('pack-js', () => {
-    let { src, dist } = path
-    return gulp.src(src + '/javascripts/**/*.js')
-            .pipe(webpack(webpackConfig))
-            .pipe(gulp.dest(dist + '/javascripts'))
+    return gulp.src('src/javascripts/**/*')
+                .pipe(webpack(webpackConfig))
+                .pipe(gulp.dest('dist/javascripts'))
 })
 
-// 开启开发服务器
-gulp.task('webserver', () => {
-    let { dist } = path
-    return gulp.src(dist)
+// server
+gulp.task('server', () => {
+    return gulp.src('dist')
             .pipe(webserver(serverConfig))
 })
 
-// 监听文件变化
+
+// watch
 gulp.task('watch', () => {
-    let { dist, src } = path
-    gulp.watch(src + '/*.html', ['copy-html']);
-    gulp.watch(src + '/stylesheets/**/*.scss', ['compile-sass']);
-    gulp.watch(src + '/javascripts/**/*', ['pack-js']);
-    // 监听static中静态资源的变化
-    watch(src + '/static/**/*', (v) => {
-        if ( v.event === 'unlink' ) { // 如果是删除文件
-            // 将dist/static中的对应文件也删掉
-            let _path = Path.resolve(dist + '/static/', v.path.split('\\static\\')[1])
-            del(_path) // 删除
+    gulp.watch('src/*.html', ['copy-html'])
+    gulp.watch('src/stylesheets/**/*.scss', ['compile-sass'])
+    gulp.watch('src/javascripts/**/*', ['pack-js'])
+
+
+    // 监听静态资源变化
+    watch('src/static/**/*', (v) => {
+        if ( v.event === 'unlink' ) { // 如果是删除动作就删除对应的dist中的文件
+            let _path = pathUtil.resolve('dist/static/', v.path.split('\\static\\')[1])
+            del(_path)
         } else {
-            gulp.start(['copy-static']) // 执行复制静态文件的任务
+            // 如果是新增和更改，就将静态资源直接再次输出到打包路径
+            gulp.start(['copy-static'])
         }
     })
 })
 
-gulp.task('default', 
-        ['copy-static','copy-html', 'compile-sass', 'pack-js', 'watch', 'webserver'], 
-        () => console.log('gulp 开启了———————————————>'))
+gulp.task('default',
+    [
+        'copy-static',
+        'copy-html',
+        'compile-sass',
+        'pack-js',
+        'watch',
+        'server'
+    ],
+    () => { console.log('running!') }
+)
