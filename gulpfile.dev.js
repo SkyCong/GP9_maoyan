@@ -9,7 +9,7 @@ const webpack = require('webpack-stream')
 // 解构出来的配置文件
 const { 
     serverConfig,
-    webpackConfig  
+    webpackConfig 
 } = require('./config')
 
 // 迁移static资源
