@@ -1,3 +1,290 @@
 {
-  "value": "a"
+  "coming": [],
+  "movieIds": [
+    410629,
+    248906,
+    247295,
+    1206605,
+    344869,
+    1218091,
+    341139,
+    1243239,
+    1214652,
+    1250341,
+    580298,
+    344262,
+    1206836,
+    1215114,
+    1251606,
+    1233150,
+    1205582,
+    1256964,
+    907653,
+    1206875,
+    1235560,
+    1212512,
+    888384,
+    343455,
+    1257666,
+    1240159,
+    341989,
+    1229799,
+    1199011,
+    1229768,
+    1244914,
+    1229697,
+    1174518,
+    1220833,
+    1246861,
+    1254390,
+    1229591,
+    344757,
+    1250665
+  ],
+  "stid": "576591972453269000",
+  "stids": [
+    {
+      "movieId": 410629,
+      "stid": "576591972453269000_a410629_c0"
+    },
+    {
+      "movieId": 248906,
+      "stid": "576591972453269000_a248906_c1"
+    },
+    {
+      "movieId": 247295,
+      "stid": "576591972453269000_a247295_c2"
+    },
+    {
+      "movieId": 1206605,
+      "stid": "576591972453269000_a1206605_c3"
+    },
+    {
+      "movieId": 344869,
+      "stid": "576591972453269000_a344869_c4"
+    },
+    {
+      "movieId": 1218091,
+      "stid": "576591972453269000_a1218091_c5"
+    },
+    {
+      "movieId": 341139,
+      "stid": "576591972453269000_a341139_c6"
+    },
+    {
+      "movieId": 1243239,
+      "stid": "576591972453269000_a1243239_c7"
+    },
+    {
+      "movieId": 1214652,
+      "stid": "576591972453269000_a1214652_c8"
+    },
+    {
+      "movieId": 1250341,
+      "stid": "576591972453269000_a1250341_c9"
+    },
+    {
+      "movieId": 580298,
+      "stid": "576591972453269000_a580298_c10"
+    },
+    {
+      "movieId": 344262,
+      "stid": "576591972453269000_a344262_c11"
+    }
+  ],
+  "total": 39,
+  "movieList": [
+    {
+      "id": 410629,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/fc4dd6cd0c6f7db566a128cc05c475355664427.jpg",
+      "version": "v3d imax",
+      "nm": "阿丽塔：战斗天使",
+      "preShow": false,
+      "sc": 9,
+      "globalReleased": true,
+      "wish": 172381,
+      "star": "罗莎·萨拉查,克里斯托弗·沃尔兹,基恩·约翰逊",
+      "rt": "2019-02-22",
+      "showInfo": "今天219家影院放映3656场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 248906,
+      "haspromotionTag": false,
+      "img": "http://p1.meituan.net/w.h/movie/616cd50a33550a9225ac781e52d14ae54967551.jpg",
+      "version": "v3d imax",
+      "nm": "流浪地球",
+      "preShow": false,
+      "sc": 9.3,
+      "globalReleased": true,
+      "wish": 249514,
+      "star": "吴京,屈楚萧,李光洁",
+      "rt": "2019-02-05",
+      "showInfo": "今天219家影院放映2496场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 247295,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/9ef02a501fee7f62d49d2096b52175d32155331.jpg",
+      "version": "v3d imax",
+      "nm": "驯龙高手3",
+      "preShow": false,
+      "sc": 9.2,
+      "globalReleased": false,
+      "wish": 192037,
+      "star": "杰伊·巴鲁切尔,刘昊然,亚美莉卡·费雷拉",
+      "rt": "2019-03-01",
+      "showInfo": "2019-03-01 本周五上映",
+      "showst": 4,
+      "wishst": 0
+    },
+    {
+      "id": 1206605,
+      "haspromotionTag": false,
+      "img": "http://p1.meituan.net/w.h/movie/c9b280de01549fcb71913edec05880585769972.jpg",
+      "version": "",
+      "nm": "绿皮书",
+      "preShow": false,
+      "sc": 0,
+      "globalReleased": false,
+      "wish": 34155,
+      "star": "维果·莫腾森,马赫沙拉·阿里,琳达·卡德里尼",
+      "rt": "2019-03-01",
+      "showInfo": "2019-03-01 本周五上映",
+      "showst": 4,
+      "wishst": 0
+    },
+    {
+      "id": 344869,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/6a21e35ad7106c60967954b165c09b92915222.jpg",
+      "version": "v2d imax",
+      "nm": "疯狂的外星人",
+      "preShow": false,
+      "sc": 8.5,
+      "globalReleased": true,
+      "wish": 459801,
+      "star": "黄渤,沈腾,马修·莫里森",
+      "rt": "2019-02-05",
+      "showInfo": "今天213家影院放映969场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1218091,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/894fb3b5d73f48148a79b7d8ad234f5010214941.jpg",
+      "version": "v2d imax",
+      "nm": "飞驰人生",
+      "preShow": false,
+      "sc": 8.8,
+      "globalReleased": true,
+      "wish": 382360,
+      "star": "沈腾,黄景瑜,尹正",
+      "rt": "2019-02-05",
+      "showInfo": "今天209家影院放映952场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 341139,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/034069fc367db8a7d9644717b416cc2c332883.jpg",
+      "version": "v3d imax",
+      "nm": "惊奇队长",
+      "preShow": false,
+      "sc": 0,
+      "globalReleased": false,
+      "wish": 339217,
+      "star": "布丽·拉尔森,塞缪尔·杰克逊,本·门德尔森",
+      "rt": "2019-03-08",
+      "showInfo": "2019-03-08 下周五上映",
+      "showst": 4,
+      "wishst": 0
+    },
+    {
+      "id": 1243239,
+      "haspromotionTag": false,
+      "img": "http://p1.meituan.net/w.h/movie/0ca4644c25ff01b7779a06e1ce4f1b011824360.jpg",
+      "version": "v3d",
+      "nm": "熊出没·原始时代",
+      "preShow": false,
+      "sc": 9.2,
+      "globalReleased": true,
+      "wish": 91834,
+      "star": "宋祖儿,谭笑,张伟",
+      "rt": "2019-02-05",
+      "showInfo": "今天141家影院放映266场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1214652,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/979266668d0e94dc83956a70d22b4eaa184105.jpg",
+      "version": "",
+      "nm": "朝花夕誓-于离别之朝束起约定之花",
+      "preShow": false,
+      "sc": 9.2,
+      "globalReleased": true,
+      "wish": 76220,
+      "star": "石见舞菜香,入野自由,茅野爱衣",
+      "rt": "2019-02-22",
+      "showInfo": "今天119家影院放映238场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 1250341,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/91bc49146682a342bbed0ceb38916a801433024.jpg",
+      "version": "",
+      "nm": "夏目友人帐",
+      "preShow": false,
+      "sc": 0,
+      "globalReleased": false,
+      "wish": 157857,
+      "star": "神谷浩史,井上和彦,小林沙苗",
+      "rt": "2019-03-07",
+      "showInfo": "2019-03-07 下周四上映",
+      "showst": 4,
+      "wishst": 0
+    },
+    {
+      "id": 580298,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/ec30a55b1b20e7b8621bfb7682b530f9568248.jpg",
+      "version": "",
+      "nm": "新喜剧之王",
+      "preShow": false,
+      "sc": 8,
+      "globalReleased": true,
+      "wish": 332957,
+      "star": "王宝强,鄂靖文,张全蛋",
+      "rt": "2019-02-05",
+      "showInfo": "今天77家影院放映127场",
+      "showst": 3,
+      "wishst": 0
+    },
+    {
+      "id": 344262,
+      "haspromotionTag": false,
+      "img": "http://p0.meituan.net/w.h/movie/caa49433185fd62b4384e3ad195ec1541309089.jpg",
+      "version": "",
+      "nm": "一吻定情",
+      "preShow": false,
+      "sc": 8.6,
+      "globalReleased": true,
+      "wish": 81946,
+      "star": "王大陆,林允,钟丽缇",
+      "rt": "2019-02-14",
+      "showInfo": "今天55家影院放映105场",
+      "showst": 3,
+      "wishst": 0
+    }
+  ]
 }

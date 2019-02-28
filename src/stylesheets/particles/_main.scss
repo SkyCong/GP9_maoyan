@@ -1,263 +1,332 @@
-
-#main {
-    display: flex;
-    align-items: stretch; 
+* { box-sizing: border-box; }
+a { color: #333; text-decoration: none; }
+html, body, #app { height: 100%; }
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    font-size: 100%;
+}
+// #main {
+//     width:100%;
+//     height:100%; 
+//  }
+img {
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
 }
 
-#app-container {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-flow: column nowrap;
-    .film-controls {
-        flex-shrink: 0;
-    }
-    .app-index-view {
-        flex-grow: 1; flex-shrink: 1;
-        width: 100%;
-        overflow: auto;
-    }
-
-}
-
-
-/* 内容顶部控制区域 */
-
-
-.film-controls {
-    width: 100%; height: 1.2rem;
+.app-wrapper{
+    padding-top: .21rem;
+    .search-wrapper{
+        .searchbar-box{
+                position: relative;
+                height: .8rem;
+                width: 100%;
+                .icon-wrapper{
+                    width: 1.28rem;
+                    position: absolute;
+                    top: .08rem;
+                    left: 0;
+                    text-align: center;
+                    .searchbar-back{
+                        width: 1em;
+                        height: 1em;
+                        vertical-align: middle;
+                        color:#666;
+                        font-size: .64rem;
+                        overflow: hidden;
+                    }
+                } 
+                .input-wrapper{
+                    background-color: #f5f5f5;
+                    border-radius: 2.7rem;
+                    position: absolute;
+                    left: 1.28rem;
+                    top: 0;
+                    right: .44rem;
+                    bottom: 0;
+                    .searchbar-search{
+                        width: 1em;
+                        height: 1em;
+                        vertical-align: middle;
+                        fill: currentColor;
+                        overflow: hidden;
+                        color: #666;
+                        font-size: .64rem;
+                        margin-top: .093rem;
+                        margin-left: .067rem;
+                    }
+                    .input-text{
+                        position: absolute;
+                        right: 0;
+                        left: .76rem;
+                        top: 0;
+                        bottom: 0;
+                        font-size: .37rem;
+                        line-height: .8rem;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                }
+            
+     }
+  }
+  .filter-wrapper{
     background: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 15px;
-    align-items: center;
-    font-size: .4rem;
-    position: relative;
-}
-
-.film-controls:after {
-    content:  '';
-    display: block; width: 100%; 
-    height: 1px; transform: scale(1, 0.5);
-    position: absolute;
-    bottom: 0; left: 0;
-    background: #eeeeee;
-}
-
-.film-controls__types {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    width: 5.546667rem;
-    height: 100%;
-}
-.film-controls__type-item {
-    flex-grow: 1;flex-shrink: 1;
-    display: flex; justify-content: center;align-items: center;
-    font-weight: 700; color: #666;
-    height: 100%;
-    margin: 0px 12px;
-    border-bottom: 2px solid transparent;
-}
-.film-controls__type-item.active {
-    border-color: #E54847;
-    color: #E54847;
-}
-.film-controls__city { color: #666; }
-.film-controls__search i{ color: #E54847; font-size: 24px; font-weight: bolder; }
-
-/* 内容影片列表 */
-.film-list {
-    /* height: 300px;  */
-    background: #fff;
-    padding: 0 .4rem;
-}
-.film-list__item {
-    width: 100%;
-    height: 3.04rem;
-    padding: .32rem .373333rem;
-    padding-left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.film-list__item-img {
-    width: 1.706667rem; height: 2.4rem; display: block;
-}
-.film-list__btn {
-    width: 1.253333rem; height: .72rem;
-    text-align: center; line-height: .72rem;
-    color: #fff;
-    border-radius: 5px;
-    font-size: .293333rem;
-    display: none;
-}
-.film-list__btn.active { display: block; }
-.film-list__btn--buy { background: #f03d37; }
-.film-list__btn--pre { background: #3c9fe6; }
-
-.film-list__item-info {
-    width: 5.466667rem;margin-left: .266667rem; height: 100%;
-    font-size: 13px; color: #666;
-    /* background: */
-}
-
-.film-list__item-title {
-    display: flex; align-items: center;
-    margin-bottom: .186667rem;
-}
-.film-list__item-title h1 {
-    margin: 0; font-size: 17px; font-weight: 700;
-}
-
-.film-list__item-desc-img.max {
-    display: block; height: .373333rem;
-    width: 1.146667rem;
-    background: url(data:image/png;base64,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) no-repeat;
-    background-size: 100% 100%;
-    margin-left: 5px;
-    flex-shrink: 0;
-}
-.film-list__item-grade {
-    margin-top: 0px;
-}
-.film-list__item-grade span {
-    font-weight: 700;
-    color: #faaf00;
-    font-size: 15px;
-}
-.film-list__item-title h1 {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
-.film-list__item-grade, .film-list__item-actor, .film-list__item-count {
-    margin-top: .106667rem;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-
-
-
-
-// 即将上映
-.app-index-view {
-    display: flex;
-    align-items: stretch;
-}
-.coming-content{
-    width: 100%; 
-    // overflow: hidden;
-}
-
-#coming-banner {
-    .swiper-container {
-        height: 3.466667rem;
-        overflow: hidden;
-        margin-bottom: 15px;
-        img {
-            display: block;
-            width: 100%;
+    box-shadow: inset 0 0 0 0 #ddd;
+    .filterbar-wrapper{
+        .filterbar-box{
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-line-pack: center;
+            align-content: center;
+            -ms-flex-align: center;
+            align-items: center;
+            font-size: .32rem;
+            color: rgba(0,0,0,.85);
+           .filterbar-text{
+                position: relative;
+                -ms-flex: 1;
+                flex: 1;
+                padding-top: .64rem;
+                text-align: center;
+                .active-text{
+                    color: #ffa000;
+                }
+                span{
+                    display: inline-block;
+                    max-width: 1.7rem;
+                    vertical-align: middle;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;       
+                    color: rgba(0,0,0,.85);
+                    line-height: 1.3;
+                }
+                .filterbar-panle-icon{
+                    margin-left: .13rem;
+                    font-size: .26rem;
+                    color: #ccc;
+                    transition: all .2s ease-in-out;
+                    width: 1em;
+                    height: 1em;
+                    vertical-align: middle;
+                    fill: currentColor;
+                    overflow: hidden;
+                }
+            }
+            .filterbar-text:last-child{
+                flex: 0 0 .853rem;   
+            }
         }
-
-        .swiper-pagination {
-            text-align: right;
-            padding-right: 15px;
-            .swiper-pagination-bullet {
-                width: 5px; height: 5px;
-                border: 1px solid #fff;
-                background: none;
-                opacity: 1;
-
-                &.swiper-pagination-bullet-active {
-                    background: #fff;
+        .rapid-wrapper{
+            position: relative;
+            .rapid-list{
+                position: relative;
+                padding-top: .32rem;
+                padding-bottom: .32rem;
+                white-space: nowrap;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+                margin-left: .2rem;
+                div{
+                    display: inline-block;
+                    -ms-flex: 0 0 auto;
+                    flex: 0 0 auto;
+                    height: .8rem;
+                    line-height: .8rem;
+                    font-size: .32rem;
+                    color: rgba(0,0,0,.4);
+                    letter-spacing: 0;
+                    background-color: rgba(0,0,0,.03);
+                    border-radius: .4rem;
+                    margin-right: .213rem;
+                    vertical-align: middle;
+                    span{
+                        vertical-align: middle;
+                    }
+                    
+                }
+                 .pd20 {
+                    padding: 0 .267rem;
+                    .icon-tag{
+                        width: .427rem;
+                        margin-right: .053rem;
+                        vertical-align: middle;
+                    }
+                }
+                  .active-tag{
+                    background-color: #ff961e;
+                    color: #fff;
+                    .full-img-tag{
+                        width: 2.4rem;
+                    }
                 }
             }
         }
-    }
-}
-
-// 推荐
-.coming-recommend {
-    padding: .32rem .4rem;
-    background: #fff;
-    margin-bottom: .4rem;
-
-    .coming-recommend__title {
-        color: #333;
-        margin-bottom: .32rem;
-        font-size: 14px;
-    }
-    .coming-recommend__content {
-        width: 100%;
-        height: 4.266667rem;
-    }
-
-    .coming-recommend__item {
-        width: 2.266667rem;
-        height: 4.16rem;
-        .coming-recommend__item-img {
-            width: 100%; height: 3.066667rem;
-            position: relative;
-            margin-bottom: .16rem;
-            img { display: block; width: 100%; height: 100%; }
-            .coming-recommend__item-like {
-                width: .746667rem; height: .746667rem;
-                background: rgba(61,63,71,.6);
-                border-bottom-right-radius: .266667rem;
-                text-align: center;line-height: .746667rem;
-                color: #fff; font-size: .266667rem;
-                position: absolute;
-                left: 0; top: 0;
-            }
-            .coming-recommend__item-want {
-                width: 100%; height: .933333rem;
-                display: flex;
-                justify-content: center;
-                align-items: flex-end;
-                color: #faaf00;
-                font-size: .293333rem; font-weight: 600;
-                padding: 0px 5px 5px;
-                background-image: -webkit-linear-gradient(top,rgba(77,77,77,0),#000);
-                position: absolute; left: 0; bottom: 0;
-            }
-        }
-        .coming-recommend__item-name {
-            font-size: .346667rem; font-weight: bold;
-            margin-bottom: .08rem;color: #222;
-        }
-        .coming-recommend__item-date {
-            font-size: 12px;
-            color: #999;
-        }
+        
         
     }
-}
-
-
-.coming-list {
-    padding: .32rem .4rem;
-    background: #fff;
-    .film-list__date {
-        color: #333;
-        font-size: .373333rem;
+  }
+  .main-wrapper{
+    position: absolute;
+    top: 3.58rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    .house-wrapper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .scroll-content{
+            transition-property: transform;
+            transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+            transition-duration: 0ms;
+            transform: translate(0px, 0px) translateZ(0px);
+            ul{
+                padding: 0;
+                margin: 0;
+                pointer-events: auto;
+                .house-item{
+                    position: relative;
+                    display: -ms-flexbox;
+                    display: flex;
+                    padding: .53rem .32rem;
+                    .house-img{
+                        width: 3.41rem;
+                        -ms-flex: 0 0 3.41rem;
+                        flex: 0 0 3.41rem;
+                        position: relative;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .house-content{
+                        -ms-flex: 1;
+                        flex: 1;
+                        padding-left: .32rem;
+                        width: 100%;
+                        overflow: hidden;
+                        .name {
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            font-size: .37rem;
+                            line-height: 1.2;
+                            color: #444;
+                        }
+                        .desc {
+                            margin: .2rem 0;
+                            line-height: .43rem;
+                            overflow: hidden;
+                            .area {
+                                font-size: .32rem;
+                                vertical-align: middle;
+                            }
+                            .price{
+                                font-family: PingFangSC-Medium;
+                                font-size: .43rem;
+                                color: #ffa000;
+                                vertical-align: middle;
+                            }
+                            .price-img-wrapper span{
+                                display: inline-block;
+                                background-repeat: no-repeat;
+                                font-size: 0;
+                                vertical-align: middle;
+                                width: 0.267rem;
+                                height: 0.4rem;
+                                background-image: url(//static8.ziroom.com/phoenix/pc/images/price/89015e3…s.png);
+                                background-size: auto 0.4rem;
+                                background-position: -1.6rem center;
+                            }
+                            .mark-img{
+                                width: .48rem;
+                                margin-right: .107rem;
+                            }
+                                
+                      
+                        }
+                        .address {
+                            margin-bottom: .293rem;
+                            .house-address{
+                                font-size: .48rem;
+                                color: #999;
+                            }
+                            .address-text[data-v-554ef15e] {
+                                font-size: .32rem;
+                                vertical-align: middle;
+                            }
+                        }
+                        .house-tag{
+                            .small-tag-wrapper{
+                                .samll-img {
+                                    width: 1.28rem;
+                                    height: .493rem;
+                                    margin-right: .16rem;
+                                    vertical-align: top;
+                                }
+                                .small-tag {
+                                    position: relative;
+                                    display: inline-block;
+                                    padding: .1rem .2rem;
+                                    font-size: .27rem;
+                                    line-height: .27rem;
+                                    color: #999;
+                                    margin-right: .16rem;
+                                    border: 1px solid #c8c8c8;
+                                }
+                            }
+                        }
+                    }
+                }
+                .house-item:after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    content: "";
+                    width: 100%;
+                    border-top: 1px solid #ddd;
+                }
+            }
+        }
+        .bscroll-vertical-scrollbar{
+            position: absolute;
+            z-index: 9999;
+            width: 7px;
+            bottom: 2px;
+            top: 2px;
+            right: 1px;
+            overflow: hidden;
+            opacity: 0;
+            transition-duration: 500ms;
+        }
     }
+  }
 }
 
 
-.back-top {
-    width: 1.2rem; height: 1.2rem;
-    border-radius: 50%;
-    background: #333;
-    display: flex; justify-content: center; align-items: center;
-    color: #fff;
-
-    position: fixed;
-    right: .4rem;
-    bottom: 1.733333rem;
-
-    opacity: 0;
-}
+ 
+    
+ 
+ 
+   
+ 
+   
+ 
+    
+    

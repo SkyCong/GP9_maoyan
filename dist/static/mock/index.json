@@ -1,0 +1,192 @@
+{
+	"status": 0,
+	"a": [{
+		"id": "1",
+		"img": "http://img.ziroom.com/house_images/g2m1/M00/5B/6A/ChAFBlvgWK-AH40rAAib3dcVvNo973.jpg_C_600_400_Q80.jpg",
+		"name": "建安里小区4居室-南卧",
+		"desc": "[昌平区东关] 昌平线 昌平东关",
+		"price": "¥1830/月 "
+	}, {
+		"id": "1",
+		"img": "http://img.ziroom.com/house_images/g2m1/M00/A1/21/ChAFB1xEIESAUEiSABCSgOinjdM497.JPG_C_600_400_Q80.jpg",
+		"name": "北京风景5居室-南卧",
+		"desc": "[昌平区昌平其它] 昌平线 南邵",
+		"price": "¥2160/月 "
+	}, {
+		"id": "1",
+		"img": "http://img.ziroom.com/house_images/g2m1/M00/D6/67/ChAFB1wHSH-AWFKwAAwmcoISfKM912.JPG_C_600_400_Q80.jpg",
+		"name": "安河家园3居室-南卧",
+		"desc": "[海淀区海淀北部新区] 16号线 北安河",
+		"price": "¥2090/月 "
+	}, {
+		"id": "1",
+		"img": "http://img.ziroom.com/house_images/g2m1/M00/4C/AA/ChAFBlva2D-AEY80AAPna1p4h5A925.JPG_C_600_400_Q80.jpg",
+		"name": "保利春天里5居室-南卧",
+		"desc": "[大兴区黄村] 4号线 天宫院",
+		"price": "¥1890/月 "
+	}],
+
+	"b": [{
+		"id": "2",
+		"img": "http://img.ziroom.com/house_images/g2m1/M00/DC/56/ChAFB1xi42OAWVLnAA8E7eXZRcI080.jpg_C_600_400_Q80.jpg",
+		"name": "工体3号1居室-南",
+		"desc": "[东城区工体] 2号线 东四十条",
+		"price": "¥299/天 "
+	}, {
+		"id": "2",
+		"img": "http://img.ziroom.com/house_images/g2m1/M00/F0/0D/ChAFB1wOE-yAQYnKABrFqW47KWM046.JPG_C_600_400_Q80.jpg",
+		"name": "梨花园1居室-南北",
+		"desc": "[通州区玉桥] 八通线 梨园",
+		"price": "¥4660/月 "
+	}, {
+		"id": "2",
+		"img": "http://img.ziroom.com/house_images/g2m1/M00/8A/28/ChAFB1vwIiyACwHAACEGo_iCC6c823.JPG_C_600_400_Q80.jpg",
+		"name": "绿地诺亚方舟1居室-东",
+		"desc": "[房山区良乡] 房山线 良乡大学城北",
+		"price": "¥3230/月 "
+	}, {
+		"id": "2",
+		"img": "http://img.ziroom.com/house_images/g2m1/M00/92/A2/ChAFB1vyzTKAUDNsAAIbJK1SonA163.jpg_C_600_400_Q80.jpg",
+		"name": "管庄新村1居室-南",
+		"desc": "[朝阳区双桥] 八通线 管庄",
+		"price": "¥4960/月 "
+	}, {
+		"id": "3",
+		"img": "http://image.ziroom.com/g2/M00/23/4A/ChAFFVh-4jaAURFsAAHKTQpo5cQ798.jpg",
+		"name": "北京欢乐谷自如寓",
+		"desc": "欢乐工厂 LOFT之寓",
+		"price": null
+	}],
+	
+	"c": [{
+		"id": "3",
+		"img": "http://image.ziroom.com/g2/M00/24/18/ChAFFViAgDeAHM71AAHKpJmCR1E212.jpg",
+		"name": "北京上地凌云自如寓",
+		"desc": "极客凌云 科技之寓",
+		"price": null
+	}, {
+		"id": "3",
+		"img": "http://image.ziroom.com/g2/M00/23/4A/ChAFFVh-4l6AbhaiAAF9bUPQ7ts228.jpg",
+		"name": "北京亚运村15号自如寓",
+		"desc": "双线相约 设计之寓",
+		"price": null
+	}, {
+		"id": "3",
+		"img": "http://image.ziroom.com/g2/M00/23/4A/ChAFFVh-4kSAVdhkAAHG980RwGs443.jpg",
+		"name": "北京酒仙桥将府自如寓",
+		"desc": "艺术部落 活力之寓",
+		"price": null
+	}, {
+		"id": "3",
+		"img": "http://image.ziroom.com/g2/M00/24/2B/ChAFEViAfumABVxUAAFmWnIxgw4254.jpg",
+		"name": "北京望京阳光自如寓",
+		"desc": "阳光满屋 SOHO之寓",
+		"price": null
+	}, {
+		"id": "3",
+		"img": "http://image.ziroom.com/g2/M00/23/5D/ChAFEVh-4YGAW2qBAAGvZXxTnIQ339.jpg",
+		"name": "北京西直门梧桐自如寓",
+		"desc": "梧桐倚栏 学院之寓",
+		"price": null
+	}],
+	
+	"d": [{
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/AE/48/ChAFfVoVQoSANeEkABUNYIBALwM503.jpg_Z_930_620.jpg",
+		"name": "双井国贸\n                                                    你的另一个家 Tiffany的小次卧",
+		"desc": "北京 | 独立房间",
+		"price": "¥259/晚"
+	}, {
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/00/81/ChAFD1j-J4aATywfACre8lj1mPU996.jpg_Z_930_620.jpg",
+		"name": "【悦江山】在270度阳光玻璃房观钱塘山水",
+		"desc": "杭州 | 整套出租",
+		"price": "¥330/晚"
+	}, {
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/40/DF/ChAFFVjGWOKAHFY8AAycV_GEFE4092.jpg_Z_930_620.jpg",
+		"name": "【初生·本宿】太古里投影带机麻6人房\n                                                    免费接送机",
+		"desc": "成都 | 整套出租",
+		"price": "¥498/晚"
+	}, {
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/6D/BB/ChAFfVtQNWiAPqGVACMTC96o6Mk291.jpg_Z_930_620.jpg",
+		"name": "怀柔青龙峡青龙湖雁栖湖怀北滑雪场大隐于世民宿",
+		"desc": "北京 | 整套出租",
+		"price": "¥3960/晚"
+	}, {
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/7B/6A/ChAFfVnOliqANMNhAAq4Jwr5Ti4698.jpg_Z_930_620.jpg",
+		"name": "【我宅•有月】建筑师的四合院，毗邻雍和宫后海南锣鼓巷",
+		"desc": "北京 | 独立房间",
+		"price": "¥568/晚"
+	}, {
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/56/0D/ChAFFVjx2byAA5A2AA8k0XlBC-0935.jpg_Z_930_620.jpg",
+		"name": "京城63号院四合有云",
+		"desc": "北京 | 整套出租",
+		"price": "¥7999/晚"
+	}, {
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/B0/75/ChAFD1rsMt-AUgBxABp-2jRUxoM808.JPG_Z_930_620.jpg",
+		"name": "[晓愉的后花园]聚会，摄影，复式屋顶花园宝安中心壹方城近机场",
+		"desc": "深圳 | 整套出租",
+		"price": "¥1380/晚"
+	}, {
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/13/D5/ChAFD1klADGAS4KAAAI1Y9C67Zo677.jpg_Z_930_620.jpg",
+		"name": "地铁旁商圈内绿植满满的日式loft温馨空调公寓",
+		"desc": "昆明 | 整套出租",
+		"price": "¥228/晚"
+	}, {
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/51/C1/ChAFfVtDPQiADoIwAAPJomCTVG0450.jpg_Z_930_620.jpg",
+		"name": "『45°灰』新潮半墙主义3居，2号线直达虹桥机场，近中山公园",
+		"desc": "上海 | 整套出租",
+		"price": "¥1288/晚"
+	}, {
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/4C/EE/ChAFfVtA712AUukrABe9Rv8g0Jw675.jpg_Z_930_620.jpg",
+		"name": "【一宿·路舍】大复式\n                                                    粉红豹 进地铁 田子坊 瑞金医院",
+		"desc": "上海 | 整套出租",
+		"price": "¥550/晚"
+	}, {
+		"id": "4",
+		"img": "https://img.ziroom.com/minsu/g2/M00/50/E8/ChAFD1tDAc2AQQ1aAAQv1FAOm7w187.jpg_Z_930_620.jpg",
+		"name": "「July18」9/10/13号线直达外滩机场高铁站\n                                                    田子坊",
+		"desc": "上海 | 整套出租",
+		"price": "¥499/晚"
+	}],
+
+	"e": [{
+		"id": "5",
+		"img": "http://image.ziroom.com/g2/M00/50/CD/ChAFEVjnSmOAIng4AAL5oGY3sgk492.jpg",
+		"name": "北京CBD自如驿",
+		"desc": "我们一起看世界",
+		"price": null
+	}],
+
+	"f": [{
+			"id": "6",
+			"img": "//static8.ziroom.com/phoenix/msite/2016/img/banjia.jpg",
+			"name": null,
+			"desc": null,
+			"price": null
+		}, {
+			"id": "6",
+			"img": "img/baojie.jpg",
+			"name": null,
+			"desc": null,
+			"price": null
+		},
+		{
+			"id": "6",
+			"img": "//static8.ziroom.com/phoenix/msite/2016/img/jiaxiu.jpg",
+			"name": null,
+			"desc": null,
+			"price": null
+		}
+	],
+	"msg": "success"
+	
+}

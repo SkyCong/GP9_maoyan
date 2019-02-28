@@ -1,0 +1,777 @@
+{
+    "status": "success",
+    "error_code": 0,
+    "error_message": "",
+    "data": {
+        "resblock": {},
+        "rooms": [
+            {
+                "id": "61954203",
+                "house_id": "60309377",
+                "code": "BJZRGZ1118334370_01",
+                "house_code": "BJZRGZ1118334370",
+                "status": "dzz",
+                "turn": 0,
+                "type": 4,
+                "name": "瑞雪春堂2室1厅-南",
+                "price": [
+                    "//static8.ziroom.com/phoenix/pc/images/price/89015e3d6a5dc32bdd300250c21837a5s.png",
+                    [
+                        2,
+                        5,
+                        2,
+                        1
+                    ]
+                ],
+                "area": "92",
+                "price_unit": "/月",
+                "bedroom": 2,
+                "parlor": 1,
+                "resblock_id": "1111027379063",
+                "resblock_name": "瑞雪春堂",
+                "lng": 116.154608,
+                "lat": 39.726495,
+                "face": "南",
+                "photo": "https://img.ziroom.com/pic/house_images/g2m1/M00/DE/14/ChAFBlwI77OAeIGZAAZX-qwL6n8062.JPG_C_240_180_Q100.jpg",
+                "photo_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/DE/14/ChAFBlwI77OAeIGZAAZX-qwL6n8062.JPG_C_240_180_Q100.webp",
+                "photo_min": "https://img.ziroom.com/pic/house_images/g2m1/M00/DE/14/ChAFBlwI77OAeIGZAAZX-qwL6n8062.JPG_C_240_180_Q100.jpg",
+                "photo_min_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/DE/14/ChAFBlwI77OAeIGZAAZX-qwL6n8062.JPG_C_240_180_Q100.webp",
+                "floor_total": "13",
+                "floor": "2",
+                "will_unrent_date": "",
+                "subway_station_info": "距房山线良乡南关站直线686米",
+                "house_type": 4,
+                "area_order": 92,
+                "sort_score": 7.7567496,
+                "subway_score": 0,
+                "has_video": 1,
+                "has_3d": 1,
+                "air_qualified": 1,
+                "sale_img": "",
+                "tags": [
+                    {
+                        "title": "深呼吸",
+                        "bg_img": "https://image.ziroom.com/g2m1/M00/42/73/ChAFBlvW2J6AZtJtAAAfl2T06pY936.png"
+                    },
+                    {
+                        "title": "短租"
+                    },
+                    {
+                        "title": "优格3.1"
+                    }
+                ],
+                "type_text": "整租",
+                "sale_status": 1,
+                "intro_list": [
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/66/71/ChAFB1vk_OSAA2ZBAAAEqwrFIBo493.png",
+                        "title": "空气质量已检测, 空置已超过30天",
+                        "is_marked": 0
+                    }
+                ]
+            },
+            {
+                "id": "61502241",
+                "house_id": "60240507",
+                "code": "BJZRGZ1118257739_01",
+                "house_code": "BJZRGZ1118257739",
+                "status": "dzz",
+                "turn": 0,
+                "type": 4,
+                "name": "梨花园1室1厅-南北",
+                "price": [
+                    "//static8.ziroom.com/phoenix/pc/images/price/89015e3d6a5dc32bdd300250c21837a5s.png",
+                    [
+                        0,
+                        9,
+                        9,
+                        1
+                    ]
+                ],
+                "area": "65",
+                "price_unit": "/月",
+                "bedroom": 1,
+                "parlor": 1,
+                "resblock_id": "1111027377883",
+                "resblock_name": "梨花园",
+                "lng": 116.67755,
+                "lat": 39.890698,
+                "face": "南北",
+                "photo": "https://img.ziroom.com/pic/house_images/g2m1/M00/F0/0D/ChAFB1wOE-yAQYnKABrFqW47KWM046.JPG_C_240_180_Q100.jpg",
+                "photo_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/F0/0D/ChAFB1wOE-yAQYnKABrFqW47KWM046.JPG_C_240_180_Q100.webp",
+                "photo_min": "https://img.ziroom.com/pic/house_images/g2m1/M00/F0/0D/ChAFB1wOE-yAQYnKABrFqW47KWM046.JPG_C_240_180_Q100.jpg",
+                "photo_min_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/F0/0D/ChAFB1wOE-yAQYnKABrFqW47KWM046.JPG_C_240_180_Q100.webp",
+                "floor_total": "6",
+                "floor": "5",
+                "will_unrent_date": "",
+                "subway_station_info": "距八通线梨园站直线185米",
+                "house_type": 4,
+                "area_order": 65,
+                "sort_score": 7.433749,
+                "subway_score": 0,
+                "has_video": 1,
+                "has_3d": 1,
+                "air_qualified": 1,
+                "sale_img": "https://image.ziroom.com/g2m1/M00/85/95/ChAFBlvugreAdUurAAAIJIioF8Q667.png",
+                "tags": [
+                    {
+                        "title": "深呼吸",
+                        "bg_img": "https://image.ziroom.com/g2m1/M00/42/73/ChAFBlvW2J6AZtJtAAAfl2T06pY936.png"
+                    },
+                    {
+                        "title": "离地铁近"
+                    },
+                    {
+                        "title": "清语3.1"
+                    }
+                ],
+                "type_text": "整租",
+                "sale_status": 1,
+                "intro_list": [
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/66/71/ChAFB1vk_OSAA2ZBAAAEqwrFIBo493.png",
+                        "title": "空气质量已检测, 空置已超过30天",
+                        "is_marked": 0
+                    },
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/67/9D/ChAFBlvk_QCAQ3tLAAAF1hO90gs983.png",
+                        "title": "签约立减服务费219元",
+                        "is_marked": 1
+                    }
+                ]
+            },
+            {
+                "id": "61930133",
+                "house_id": "60305770",
+                "code": "BJZRGZ1118330443_01",
+                "house_code": "BJZRGZ1118330443",
+                "status": "dzz",
+                "turn": 0,
+                "type": 4,
+                "name": "稻田回迁楼北区1室1厅-南",
+                "price": [
+                    "//static8.ziroom.com/phoenix/pc/images/price/89015e3d6a5dc32bdd300250c21837a5s.png",
+                    [
+                        2,
+                        5,
+                        9,
+                        1
+                    ]
+                ],
+                "area": "55",
+                "price_unit": "/月",
+                "bedroom": 1,
+                "parlor": 1,
+                "resblock_id": "1120025757874762",
+                "resblock_name": "稻田回迁楼北区",
+                "lng": 116.228909,
+                "lat": 39.800463,
+                "face": "南",
+                "photo": "https://img.ziroom.com/pic/house_images/g2m1/M00/AD/C8/ChAFB1v6rGCAMcj6AAuwtP8sb7c343.JPG_C_240_180_Q100.jpg",
+                "photo_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/AD/C8/ChAFB1v6rGCAMcj6AAuwtP8sb7c343.JPG_C_240_180_Q100.webp",
+                "photo_min": "https://img.ziroom.com/pic/house_images/g2m1/M00/AD/C8/ChAFB1v6rGCAMcj6AAuwtP8sb7c343.JPG_C_240_180_Q100.jpg",
+                "photo_min_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/AD/C8/ChAFB1v6rGCAMcj6AAuwtP8sb7c343.JPG_C_240_180_Q100.webp",
+                "floor_total": "18",
+                "floor": "10",
+                "will_unrent_date": "",
+                "subway_station_info": "距房山线稻田站直线267米",
+                "house_type": 4,
+                "area_order": 55,
+                "sort_score": 7.4195,
+                "subway_score": 0,
+                "has_video": 1,
+                "has_3d": 1,
+                "air_qualified": 1,
+                "sale_img": "https://image.ziroom.com/g2m1/M00/85/95/ChAFBlvugreAdUurAAAIJIioF8Q667.png",
+                "tags": [
+                    {
+                        "title": "深呼吸",
+                        "bg_img": "https://image.ziroom.com/g2m1/M00/42/73/ChAFBlvW2J6AZtJtAAAfl2T06pY936.png"
+                    },
+                    {
+                        "title": "离地铁近"
+                    },
+                    {
+                        "title": "清语3.1"
+                    }
+                ],
+                "type_text": "整租",
+                "sale_status": 1,
+                "intro_list": [
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/66/71/ChAFB1vk_OSAA2ZBAAAEqwrFIBo493.png",
+                        "title": "空气质量已检测, 空置已超过30天",
+                        "is_marked": 0
+                    },
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/67/9D/ChAFBlvk_QCAQ3tLAAAF1hO90gs983.png",
+                        "title": "签约立减服务费219元",
+                        "is_marked": 1
+                    }
+                ]
+            },
+            {
+                "id": "61918002",
+                "house_id": "60303922",
+                "code": "BJZRGZ1118328394_01",
+                "house_code": "BJZRGZ1118328394",
+                "status": "dzz",
+                "turn": 0,
+                "type": 4,
+                "name": "车站北里2室1厅-南北",
+                "price": [
+                    "//static8.ziroom.com/phoenix/pc/images/price/89015e3d6a5dc32bdd300250c21837a5s.png",
+                    [
+                        0,
+                        4,
+                        7,
+                        1
+                    ]
+                ],
+                "area": "55",
+                "price_unit": "/月",
+                "bedroom": 2,
+                "parlor": 1,
+                "resblock_id": "1111027376693",
+                "resblock_name": "车站北里",
+                "lng": 116.340288,
+                "lat": 39.73022,
+                "face": "南北",
+                "photo": "https://img.ziroom.com/pic/house_images/g2m1/M00/AF/24/ChAFB1v7cuGABSAIABrqbm_4zdk166.jpg_C_240_180_Q100.jpg",
+                "photo_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/AF/24/ChAFB1v7cuGABSAIABrqbm_4zdk166.jpg_C_240_180_Q100.webp",
+                "photo_min": "https://img.ziroom.com/pic/house_images/g2m1/M00/AF/24/ChAFB1v7cuGABSAIABrqbm_4zdk166.jpg_C_240_180_Q100.jpg",
+                "photo_min_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/AF/24/ChAFB1v7cuGABSAIABrqbm_4zdk166.jpg_C_240_180_Q100.webp",
+                "floor_total": "6",
+                "floor": "4",
+                "will_unrent_date": "",
+                "subway_station_info": "距4号线黄村火车站站直线121米",
+                "house_type": 4,
+                "area_order": 55,
+                "sort_score": 7.41475,
+                "subway_score": 0,
+                "has_video": 1,
+                "has_3d": 0,
+                "air_qualified": 1,
+                "sale_img": "",
+                "tags": [
+                    {
+                        "title": "深呼吸",
+                        "bg_img": "https://image.ziroom.com/g2m1/M00/42/73/ChAFBlvW2J6AZtJtAAAfl2T06pY936.png"
+                    },
+                    {
+                        "title": "离地铁近"
+                    },
+                    {
+                        "title": "清语3.1"
+                    }
+                ],
+                "type_text": "整租",
+                "sale_status": 1,
+                "intro_list": [
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/66/71/ChAFB1vk_OSAA2ZBAAAEqwrFIBo493.png",
+                        "title": "空气质量已检测, 空置已超过30天",
+                        "is_marked": 0
+                    }
+                ]
+            },
+            {
+                "id": "61953650",
+                "house_id": "60309306",
+                "code": "BJZRGZ1118334287_01",
+                "house_code": "BJZRGZ1118334287",
+                "status": "dzz",
+                "turn": 0,
+                "type": 4,
+                "name": "长阳国际城二区2室1厅-南",
+                "price": [
+                    "//static8.ziroom.com/phoenix/pc/images/price/89015e3d6a5dc32bdd300250c21837a5s.png",
+                    [
+                        0,
+                        0,
+                        2,
+                        1
+                    ]
+                ],
+                "area": "81",
+                "price_unit": "/月",
+                "bedroom": 2,
+                "parlor": 1,
+                "resblock_id": "1111053458322",
+                "resblock_name": "长阳国际城二区",
+                "lng": 116.224012,
+                "lat": 39.763726,
+                "face": "南",
+                "photo": "https://img.ziroom.com/pic/house_images/g2m1/M00/F3/60/ChAFBlwOZI2AHeNuACSifjCZNCk864.JPG_C_240_180_Q100.jpg",
+                "photo_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/F3/60/ChAFBlwOZI2AHeNuACSifjCZNCk864.JPG_C_240_180_Q100.webp",
+                "photo_min": "https://img.ziroom.com/pic/house_images/g2m1/M00/F3/60/ChAFBlwOZI2AHeNuACSifjCZNCk864.JPG_C_240_180_Q100.jpg",
+                "photo_min_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/F3/60/ChAFBlwOZI2AHeNuACSifjCZNCk864.JPG_C_240_180_Q100.webp",
+                "floor_total": "20",
+                "floor": "3",
+                "will_unrent_date": "",
+                "subway_station_info": "距房山线长阳站直线749米",
+                "house_type": 4,
+                "area_order": 81,
+                "sort_score": 7.3910003,
+                "subway_score": 0,
+                "has_video": 1,
+                "has_3d": 1,
+                "air_qualified": 1,
+                "sale_img": "https://image.ziroom.com/g2m1/M00/85/95/ChAFBlvugreAdUurAAAIJIioF8Q667.png",
+                "tags": [
+                    {
+                        "title": "深呼吸",
+                        "bg_img": "https://image.ziroom.com/g2m1/M00/42/73/ChAFBlvW2J6AZtJtAAAfl2T06pY936.png"
+                    },
+                    {
+                        "title": "短租"
+                    },
+                    {
+                        "title": "清语3.1"
+                    }
+                ],
+                "type_text": "整租",
+                "sale_status": 1,
+                "intro_list": [
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/66/71/ChAFB1vk_OSAA2ZBAAAEqwrFIBo493.png",
+                        "title": "空气质量已检测, 空置已超过30天",
+                        "is_marked": 0
+                    },
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/67/9D/ChAFBlvk_QCAQ3tLAAAF1hO90gs983.png",
+                        "title": "签约立减服务费219元",
+                        "is_marked": 1
+                    }
+                ]
+            },
+            {
+                "id": "61727375",
+                "house_id": "60274820",
+                "code": "BJZRGZ1518296595_01",
+                "house_code": "BJZRGZ1518296595",
+                "status": "dzz",
+                "turn": 0,
+                "type": 9,
+                "name": "万方家园2室1厅-南",
+                "price": [
+                    "//static8.ziroom.com/phoenix/pc/images/price/89015e3d6a5dc32bdd300250c21837a5s.png",
+                    [
+                        9,
+                        6,
+                        9,
+                        1
+                    ]
+                ],
+                "area": "77",
+                "price_unit": "/月",
+                "bedroom": 2,
+                "parlor": 1,
+                "resblock_id": "1111062139581",
+                "resblock_name": "万方家园",
+                "lng": 116.647578,
+                "lat": 39.910216,
+                "face": "南",
+                "photo": "https://img.ziroom.com/pic/house_images/g2m1/M00/6F/CE/ChAFBluJCMGAF51YABdLgNNcIkU414.JPG_C_240_180_Q100.jpg",
+                "photo_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/6F/CE/ChAFBluJCMGAF51YABdLgNNcIkU414.JPG_C_240_180_Q100.webp",
+                "photo_min": "https://img.ziroom.com/pic/house_images/g2m1/M00/6F/CE/ChAFBluJCMGAF51YABdLgNNcIkU414.JPG_C_240_180_Q100.jpg",
+                "photo_min_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/6F/CE/ChAFBluJCMGAF51YABdLgNNcIkU414.JPG_C_240_180_Q100.webp",
+                "floor_total": "18",
+                "floor": "4",
+                "will_unrent_date": "",
+                "subway_station_info": "距八通线通州北苑站直线296米",
+                "house_type": 9,
+                "area_order": 77,
+                "sort_score": 7.353,
+                "subway_score": 0,
+                "has_video": 1,
+                "has_3d": 1,
+                "air_qualified": 1,
+                "sale_img": "",
+                "tags": [
+                    {
+                        "title": "离地铁近"
+                    },
+                    {
+                        "title": "首次出租"
+                    },
+                    {
+                        "title": "精选"
+                    }
+                ],
+                "type_text": "整租",
+                "sale_status": 1,
+                "intro_list": [
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/66/71/ChAFB1vk_OSAA2ZBAAAEqwrFIBo493.png",
+                        "title": "空气质量已检测, 空置已超过30天",
+                        "is_marked": 0
+                    }
+                ]
+            },
+            {
+                "id": "61563044",
+                "house_id": "60249921",
+                "code": "BJZRGZ1518268508_01",
+                "house_code": "BJZRGZ1518268508",
+                "status": "dzz",
+                "turn": 0,
+                "type": 9,
+                "name": "保利春天里2室1厅-南",
+                "price": [
+                    "//static8.ziroom.com/phoenix/pc/images/price/89015e3d6a5dc32bdd300250c21837a5s.png",
+                    [
+                        6,
+                        6,
+                        7
+                    ]
+                ],
+                "area": "85",
+                "price_unit": "/天",
+                "bedroom": 2,
+                "parlor": 1,
+                "resblock_id": "1111043623564",
+                "resblock_name": "保利春天里",
+                "lng": 116.328109,
+                "lat": 39.676703,
+                "face": "南",
+                "photo": "https://img.ziroom.com/pic/house_images/g2m1/M00/D6/E0/ChAFB1xhJRmAKabaACH9uKqKz3w324.jpg_C_240_180_Q100.jpg",
+                "photo_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/D6/E0/ChAFB1xhJRmAKabaACH9uKqKz3w324.jpg_C_240_180_Q100.webp",
+                "photo_min": "https://img.ziroom.com/pic/house_images/g2m1/M00/D6/E0/ChAFB1xhJRmAKabaACH9uKqKz3w324.jpg_C_240_180_Q100.jpg",
+                "photo_min_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/D6/E0/ChAFB1xhJRmAKabaACH9uKqKz3w324.jpg_C_240_180_Q100.webp",
+                "floor_total": "27",
+                "floor": "18",
+                "will_unrent_date": "",
+                "subway_station_info": "距4号线天宫院站直线112米",
+                "house_type": 9,
+                "area_order": 85,
+                "sort_score": 7.3482504,
+                "subway_score": 0,
+                "has_video": 1,
+                "has_3d": 0,
+                "air_qualified": 0,
+                "sale_img": "",
+                "tags": [
+                    {
+                        "title": "短租"
+                    },
+                    {
+                        "title": "离地铁近"
+                    },
+                    {
+                        "title": "精选"
+                    }
+                ],
+                "type_text": "整租",
+                "sale_status": 1,
+                "intro_list": []
+            },
+            {
+                "id": "61940766",
+                "house_id": "60307392",
+                "code": "BJZRGZ1118332208_01",
+                "house_code": "BJZRGZ1118332208",
+                "status": "dzz",
+                "turn": 0,
+                "type": 4,
+                "name": "土桥plus2室1厅-西南",
+                "price": [
+                    "//static8.ziroom.com/phoenix/pc/images/price/89015e3d6a5dc32bdd300250c21837a5s.png",
+                    [
+                        3,
+                        6,
+                        2,
+                        1
+                    ]
+                ],
+                "area": "87",
+                "price_unit": "/月",
+                "bedroom": 2,
+                "parlor": 1,
+                "resblock_id": "118549271875792",
+                "resblock_name": "土桥plus",
+                "lng": 116.692684,
+                "lat": 39.876587,
+                "face": "西南",
+                "photo": "https://img.ziroom.com/pic/house_images/g2m1/M00/0D/CD/ChAFB1xxApyAExugAAisSDaSjvQ252.JPG_C_240_180_Q100.jpg",
+                "photo_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/0D/CD/ChAFB1xxApyAExugAAisSDaSjvQ252.JPG_C_240_180_Q100.webp",
+                "photo_min": "https://img.ziroom.com/pic/house_images/g2m1/M00/0D/CD/ChAFB1xxApyAExugAAisSDaSjvQ252.JPG_C_240_180_Q100.jpg",
+                "photo_min_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/0D/CD/ChAFB1xxApyAExugAAisSDaSjvQ252.JPG_C_240_180_Q100.webp",
+                "floor_total": "21",
+                "floor": "9",
+                "will_unrent_date": "",
+                "subway_station_info": "距八通线土桥站直线145米",
+                "house_type": 4,
+                "area_order": 87,
+                "sort_score": 7.3340006,
+                "subway_score": 0,
+                "has_video": 1,
+                "has_3d": 1,
+                "air_qualified": 1,
+                "sale_img": "",
+                "tags": [
+                    {
+                        "title": "深呼吸",
+                        "bg_img": "https://image.ziroom.com/g2m1/M00/42/73/ChAFBlvW2J6AZtJtAAAfl2T06pY936.png"
+                    },
+                    {
+                        "title": "离地铁近"
+                    },
+                    {
+                        "title": "清语3.1"
+                    }
+                ],
+                "type_text": "整租",
+                "sale_status": 1,
+                "intro_list": [
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/66/71/ChAFB1vk_OSAA2ZBAAAEqwrFIBo493.png",
+                        "title": "空气质量已检测, 空置已超过30天",
+                        "is_marked": 0
+                    }
+                ]
+            },
+            {
+                "id": "61613310",
+                "house_id": "60257540",
+                "code": "BJZRGZ1518277110_01",
+                "house_code": "BJZRGZ1518277110",
+                "status": "dzz",
+                "turn": 0,
+                "type": 9,
+                "name": "首创紫悦台2室1厅-南北",
+                "price": [
+                    "//static8.ziroom.com/phoenix/pc/images/price/89015e3d6a5dc32bdd300250c21837a5s.png",
+                    [
+                        2,
+                        7,
+                        2,
+                        1
+                    ]
+                ],
+                "area": "83",
+                "price_unit": "/月",
+                "bedroom": 2,
+                "parlor": 1,
+                "resblock_id": "1111062899300",
+                "resblock_name": "首创紫悦台",
+                "lng": 116.188038,
+                "lat": 39.727323,
+                "face": "南北",
+                "photo": "https://img.ziroom.com/pic/house_images/g2m1/M00/93/13/ChAFB1vzZROAbD60AAOtGAqFo00411.JPG_C_240_180_Q100.jpg",
+                "photo_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/93/13/ChAFB1vzZROAbD60AAOtGAqFo00411.JPG_C_240_180_Q100.webp",
+                "photo_min": "https://img.ziroom.com/pic/house_images/g2m1/M00/93/13/ChAFB1vzZROAbD60AAOtGAqFo00411.JPG_C_240_180_Q100.jpg",
+                "photo_min_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/93/13/ChAFB1vzZROAbD60AAOtGAqFo00411.JPG_C_240_180_Q100.webp",
+                "floor_total": "18",
+                "floor": "10",
+                "will_unrent_date": "",
+                "subway_station_info": "距房山线良乡大学城站直线463米",
+                "house_type": 9,
+                "area_order": 83,
+                "sort_score": 7.315,
+                "subway_score": 0,
+                "has_video": 1,
+                "has_3d": 0,
+                "air_qualified": 1,
+                "sale_img": "https://image.ziroom.com/g2m1/M00/85/95/ChAFBlvugreAdUurAAAIJIioF8Q667.png",
+                "tags": [
+                    {
+                        "title": "离地铁近"
+                    },
+                    {
+                        "title": "非首次出租"
+                    },
+                    {
+                        "title": "精选"
+                    }
+                ],
+                "type_text": "整租",
+                "sale_status": 1,
+                "intro_list": [
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/66/71/ChAFB1vk_OSAA2ZBAAAEqwrFIBo493.png",
+                        "title": "空气质量已检测, 空置已超过30天",
+                        "is_marked": 0
+                    },
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/67/9D/ChAFBlvk_QCAQ3tLAAAF1hO90gs983.png",
+                        "title": "签约立减服务费319元",
+                        "is_marked": 1
+                    }
+                ]
+            },
+            {
+                "id": "61977624",
+                "house_id": "60312900",
+                "code": "BJZRGZ1118338625_01",
+                "house_code": "BJZRGZ1118338625",
+                "status": "dzz",
+                "turn": 0,
+                "type": 4,
+                "name": "达富苑1室1厅-南",
+                "price": [
+                    "//static8.ziroom.com/phoenix/pc/images/price/89015e3d6a5dc32bdd300250c21837a5s.png",
+                    [
+                        0,
+                        0,
+                        2,
+                        1
+                    ]
+                ],
+                "area": "50",
+                "price_unit": "/月",
+                "bedroom": 1,
+                "parlor": 1,
+                "resblock_id": "1111027376856",
+                "resblock_name": "达富苑",
+                "lng": 116.656342,
+                "lat": 39.900279,
+                "face": "南",
+                "photo": "https://img.ziroom.com/pic/house_images/g2m1/M00/FD/2E/ChAFB1wR1BiALXYSAAy2qWlpsQw059.JPG_C_240_180_Q100.jpg",
+                "photo_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/FD/2E/ChAFB1wR1BiALXYSAAy2qWlpsQw059.JPG_C_240_180_Q100.webp",
+                "photo_min": "https://img.ziroom.com/pic/house_images/g2m1/M00/FD/2E/ChAFB1wR1BiALXYSAAy2qWlpsQw059.JPG_C_240_180_Q100.jpg",
+                "photo_min_webp": "https://img.ziroom.com/pic/house_images/g2m1/M00/FD/2E/ChAFB1wR1BiALXYSAAy2qWlpsQw059.JPG_C_240_180_Q100.webp",
+                "floor_total": "7",
+                "floor": "7",
+                "will_unrent_date": "",
+                "subway_station_info": "距八通线果园站直线237米",
+                "house_type": 4,
+                "area_order": 50,
+                "sort_score": 7.2722497,
+                "subway_score": 0,
+                "has_video": 1,
+                "has_3d": 1,
+                "air_qualified": 1,
+                "sale_img": "",
+                "tags": [
+                    {
+                        "title": "深呼吸",
+                        "bg_img": "https://image.ziroom.com/g2m1/M00/42/73/ChAFBlvW2J6AZtJtAAAfl2T06pY936.png"
+                    },
+                    {
+                        "title": "离地铁近"
+                    },
+                    {
+                        "title": "优格3.1"
+                    }
+                ],
+                "type_text": "整租",
+                "sale_status": 1,
+                "intro_list": [
+                    {
+                        "icon": "https://image.ziroom.com/g2m1/M00/66/71/ChAFB1vk_OSAA2ZBAAAEqwrFIBo493.png",
+                        "title": "空气质量已检测, 空置已超过30天",
+                        "is_marked": 0
+                    }
+                ]
+            }
+        ],
+        "options": {
+            "live": [
+                {
+                    "value": 1,
+                    "title": "自己",
+                    "children": {
+                        "type": [
+                            {
+                                "show": "合租",
+                                "type": 1,
+                                "value": "1",
+                                "is_single": 1,
+                                "title": "不限"
+                            },
+                            {
+                                "show": "整租一居",
+                                "type": 2,
+                                "value": "11",
+                                "title": "1居"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": 2,
+                    "title": "情侣、朋友",
+                    "children": {
+                        "type": [
+                            {
+                                "show": "合租",
+                                "type": 1,
+                                "value": "1",
+                                "is_single": 1,
+                                "title": "不限"
+                            },
+                            {
+                                "show": "整租一居",
+                                "type": 2,
+                                "value": "11",
+                                "title": "1居"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": 3,
+                    "title": "小孩",
+                    "children": {
+                        "type": [
+                            {
+                                "show": "整租二居",
+                                "type": 2,
+                                "value": "12",
+                                "title": "2居"
+                            },
+                            {
+                                "show": "整租一居",
+                                "type": 2,
+                                "value": "11",
+                                "title": "1居"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": 4,
+                    "title": "老人",
+                    "children": {
+                        "type": [
+                            {
+                                "show": "整租二居",
+                                "type": 2,
+                                "value": "12",
+                                "title": "2居"
+                            },
+                            {
+                                "show": "整租三居",
+                                "type": 2,
+                                "value": "13",
+                                "title": "3居+"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "value": 5,
+                    "title": "老人&小孩",
+                    "children": {
+                        "type": [
+                            {
+                                "show": "整租三居",
+                                "type": 2,
+                                "value": "13",
+                                "title": "3居+"
+                            },
+                            {
+                                "show": "整租二居",
+                                "type": 2,
+                                "value": "12",
+                                "title": "2居"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "price": []
+        }
+    }
+}

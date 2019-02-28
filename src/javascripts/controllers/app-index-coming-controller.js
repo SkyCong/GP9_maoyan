@@ -8,7 +8,9 @@ const ComingListView = require('../views/index/coming-list.html')
 const {
     getComingBanner,
     getComingRecommend,
-    getComingList
+    getComingList,
+    getZiRu,
+    getZu
 } = require('../models/app-index-model')
 
 // swiper and better-scroll
@@ -31,7 +33,8 @@ const render = async () => {
     init()// 每次切换回即将上映
     // 渲染大架子
     $('.app-index-view').html(appMainComingView)
-
+    renderZiru ()
+    renderZu ()
     renderBanner() // 轮播图
     renderRecommend() // 推荐 
     renderComingList() // 电影列表
@@ -141,6 +144,18 @@ async function renderBanner () {
           el: '.swiper-pagination',
         }
     })  
+}
+
+async function renderZiru () {
+    // 获取轮播图数据
+    let ziru = await getZiRu()
+    console.log(ziru)
+}
+
+async function renderZu () {
+    // 获取轮播图数据
+    let zu = await getZu()
+    console.log(zu)
 }
 
 // 处理图片

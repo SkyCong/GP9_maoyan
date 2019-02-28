@@ -4,10 +4,10 @@ const appMainNowView = require('../views/app-main-now.html')
 
 const render = async () => {
      // 渲染首页的电影列表
-     let filmsList = await getFilmsList()
-     let template = Handlebars.compile(appMainNowView)
-     $('.app-index-view').html(
-         template({ films: handleListFormat(filmsList.movieList) })
+     let zuList = await getZu()
+     let template = Handlebars.compile(appListView)
+     $('.scroll-content ul').html(
+         template({hourslist: handleListFormat(zuList.rooms) })
      )
 }
 

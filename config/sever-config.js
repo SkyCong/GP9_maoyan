@@ -23,6 +23,13 @@ const serverConfig = {
                 '^/mz': ''
             }
         }),
+        proxy('/zu', {
+            target: 'http://m.ziroom.com/',
+            changeOrigin: true,
+            pathRewrite: { // 去掉暗号
+                '^/zu': ''
+            }
+        }),
     ],
     proxies: [
         // { source: '/api', target: '' }

@@ -1,0 +1,39 @@
+
+        {{#each rooms}}
+        <li>
+            <a href="" class="house-item">
+                <div class="house-img">
+                    <img src="{{photo}}" alt="">
+                </div>
+                <div class="house-content">
+                    <h3 class="name">
+                            <span class="gradient">{{type_text}}·</span>
+                            {{name}}
+                    </h3>
+                    <div class="desc">
+                        <span class="area fl">{{area}}m² | {{floor}}/{{floor_total}}层</span>
+                        <span class="price fr ho-price">{{price_unit}}</span>
+                        <div class="price-img-wrapper fr">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <img src="{{sale_img}}" class="mark-img fr">
+                    </div>
+                    <div class="address">
+                        <div class="house-address"></div>
+                        <span class="address-text">{{subway_station_info}}</span>
+                    </div>
+                    <div class="house-tag">
+                        <div class="small-tag-wrapper">
+                            {{{bgimg}}}
+                            <span class="small-tag">${intro_list.title}</span> 
+                            <span class="small-tag">拿铁4.0</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+        {{/each}}
+  

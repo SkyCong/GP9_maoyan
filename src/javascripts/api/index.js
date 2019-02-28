@@ -11,8 +11,9 @@ const api = {
         let _data = data || {}
         _data.city = _data.city || this.config.city
         return $.ajax({
-            // url: 'http://m.maoyan.com/ajax/movieOnInfoList?token=',
-            url: (mock ? '' : (source || '/maoyan') ) + url,
+            // url: 'http://http://localhost:8000/banner',
+            
+            url: (mock ? '' : (source  || '/zu' ) ) + url,
             data: _data,
             methods: methods || 'get',
             success: (res) => {
